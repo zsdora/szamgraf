@@ -1,0 +1,26 @@
+1.cylinder mesh(hajó legalsó része), 90 fokos forgatás x és z mentén
+-Bevel elülső rész kiemeléséhez
+-elülső rész kijelölése, és scale-el nagyobbra méretezés
+-hátsó részt kijelölése, x mentén érték növelése, hogy magasabban legyen
+-hátsó rész alsó felének kijelölése, vertex selectionnel z korrd. megváltoztatása, hogy beljebb csúsztassam a pontokat az eredeti pozícióhoz képest, 
+2.cube hozzáadása(tetejét ez a rész tartja)
+-edge selectionnel kijelöltem a kocka 4 élét és pozíciójukat a többi élhez közelebb helyeztem Y mentén
+-első alakzatra ráillesztés x mentén
+-4 felső vertex kijelölése, x mentén magasítás, z mentén felső vertexek eltolása negatív irányba
+3.Uv sphere hozzáadása (legfelső kör alakú rész) push/pull és  bevel használata
+-alakzat pozícionálása és extrude region használata
+4.cylinder hozzáadása(bal hátsó tartó oszlop motorokhoz)
+-pozícionálás y és x mentén, scale y és x mentén, rotation y mentén
+5.shift d-vel alakzat másolása 
+-tükrözés másik oldalra
+-pozícionálás y mentén, forgatás x mentén
+6.cylinder hozzáadása(bal motor)
+-x, y, z mentén pozícionálás
+-rotation x mentén
+-scale újraméretezéshez
+-bevel használata elülső részhez
+-cylinder hátulsó lapját kijelöltem face select-el és x mentén elforgattam
+-shift d-vel alakzat másolása és  y mentén átpozícionálás másik oldalra
+-extrude regionnel kiemeltem a kijelölt oldalsó lapokat
+-jobb oldali cylinderen ugyanez
+-edit modeban "a"-val egész objektum kijelölése és smooth faces
